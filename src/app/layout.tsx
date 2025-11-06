@@ -5,10 +5,10 @@ export const metadata: Metadata = {
   title: "Anton QA Portfolio",
   description: "QA Automation projects & CV",
   icons: {
-    icon: [{ url: "/favicon.ico?v=1", type: "image/x-icon" }],
+    icon: [{ url: "/favicon.ico?v=2", type: "image/x-icon" }],
+    apple: "/apple-touch-icon.png?v=2",
   },
 };
-
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
