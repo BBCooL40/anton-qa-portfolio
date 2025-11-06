@@ -5,17 +5,18 @@ const inter = Inter({ subsets: ["latin", "cyrillic"] });
 
 export const metadata = {
   title: "Anton QA Portfolio",
-  description: "QA Automation portfolio by Anton Tzonev",
+  description: "QA Automation projects & CV",
   icons: {
     icon: [
-      { url: "/favicon.ico", type: "image/x-icon" },
-      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
-      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
-      { url: "/android-chrome-512x512.png", sizes: "512x512", type: "image/png" },
+      { url: "/favicon.ico?v=7" },
+      { url: "/favicon-32x32.png?v=7", sizes: "32x32", type: "image/png" },
+      { url: "/favicon-16x16.png?v=7", sizes: "16x16", type: "image/png" },
     ],
+    apple: "/apple-touch-icon.png?v=7",
   },
-  manifest: "/site.webmanifest",
 };
+
+
 
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
