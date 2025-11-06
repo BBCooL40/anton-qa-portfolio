@@ -8,13 +8,13 @@ export const metadata = {
   description: "QA Automation projects & CV",
   icons: {
     icon: [
-      { url: "/favicon.ico?v=7" },
-      { url: "/favicon-32x32.png?v=7", sizes: "32x32", type: "image/png" },
-      { url: "/favicon-16x16.png?v=7", sizes: "16x16", type: "image/png" },
+      { url: "/icon.png?v=1" },               // ИЗПОЛЗВА app/icon.png
+      { url: "/android-chrome-512x512.png?v=1", sizes: "512x512", type: "image/png" }
     ],
-    apple: "/apple-touch-icon.png?v=7",
+    apple: "/apple-touch-icon.png?v=1",
   },
 };
+
 
 
 
