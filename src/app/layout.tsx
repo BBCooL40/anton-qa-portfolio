@@ -13,10 +13,6 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="bg">
-      <head>
-        {/* Форсиран линк, за да няма спор кое е фавиконът */}
-        <link rel="icon" href="/favicon.ico?v=3" type="image/x-icon" />
-      </head>
       <body className="min-h-screen w-full text-white bg-[#0b132b]">
         {children}
       </body>
